@@ -51,7 +51,13 @@ body {
           }
 
           &.sunday {
+            background-color:rgba(#ffdafa, 0.2);
+          }
+          &.saturday {
             background-color:rgba(#ffdafa, 0.1);
+          }
+
+          &.sunday, &.saturday{
             .month, .date {
               color: lighten(red, 30%);
             }

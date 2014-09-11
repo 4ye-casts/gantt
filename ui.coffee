@@ -9,7 +9,7 @@ class TaskBundle
     # .....
 
   render_on: (calendar_ui)->
-    width = (@end_day.getDate() - @start_day.getDate()) * 50
+    width = (@end_day.getDate() - @start_day.getDate() + 1) * 50
     top = calendar_ui.tasks_count * @TASK_DOM_HEIGHT + 66 + 10
     left = 50 * (@start_day.getDate() - 1)
 
@@ -91,6 +91,9 @@ class DateUI
 
     if day.getDay() is 0
       @$elm.addClass 'sunday'
+    if day.getDay() is 6
+      @$elm.addClass 'saturday'
+
 
     arr = [
       'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
@@ -126,3 +129,4 @@ jQuery ->
 # TODO
   # 子任务
   # 里程碑
+  # 后续任务

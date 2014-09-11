@@ -1,32 +1,65 @@
 [
+
+  {
+    "person": "ben7th",
+    "desc": "editor ui",
+    "start": "2014-9-15",
+    "end": "2014-9-22"
+  },
+
+  {
+    "person": "wudi",
+    "desc": "module desc",
+    "start": "2014-9-10",
+    "end": "2014-9-11"
+  },
+
   {
     "person": "chilliza",
     "desc": "绘制 mockup",
     "start": "2014-9-11",
     "end": "2014-9-15"
   },
+
+  {
+    "person": "kaid",
+    "desc": "web page coding",
+    "start": "2014-9-10",
+    "end": "2014-9-11"
+  },
+
   {
     "person": "kaid",
     "desc": "pinyin search",
     "start": "2014-9-11",
     "end": "2014-9-15"
   },
-  {
-    "person": "lifei",
-    "desc": "android client",
-    "start": "2014-9-11",
-    "end": "2014-9-22"
-  },
+
   {
     "person": "ben7th",
     "desc": "web ui",
-    "start": "2014-9-12",
+    "start": "2014-9-15",
     "end": "2014-9-22"
   },
+
+  {
+    "person": "lifei",
+    "desc": "android client without marks",
+    "start": "2014-9-1",
+    "end": "2014-9-15"
+  },
+
+  {
+    "person": "kaid",
+    "desc": "marks logic",
+    "start": "2014-9-16",
+    "end": "2014-9-22"
+  },
+
   {
     "person": "ben7th",
-    "desc": "editor ui",
-    "start": "2014-9-12",
+    "desc": "marks art design",
+    "start": "2014-9-16",
     "end": "2014-9-22"
   }
 ]
