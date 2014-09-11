@@ -1,0 +1,32 @@
+[
+  {
+    "person": "chilliza",
+    "desc": "绘制 mockup",
+    "start": "2014-9-11",
+    "end": "2014-9-15"
+  },
+  {
+    "person": "kaid",
+    "desc": "pinyin search",
+    "start": "2014-9-11",
+    "end": "2014-9-15"
+  },
+  {
+    "person": "lifei",
+    "desc": "android client",
+    "start": "2014-9-11",
+    "end": "2014-9-22"
+  },
+  {
+    "person": "ben7th",
+    "desc": "web ui",
+    "start": "2014-9-12",
+    "end": "2014-9-22"
+  },
+  {
+    "person": "ben7th",
+    "desc": "editor ui",
+    "start": "2014-9-12",
+    "end": "2014-9-22"
+  }
+]
