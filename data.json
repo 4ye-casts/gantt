@@ -1,65 +1,180 @@
 [
-
   {
-    "person": "ben7th",
-    "desc": "editor ui",
-    "start": "2014-9-15",
-    "end": "2014-9-22"
+    "desc": "web 阅读模块",
+    "is_milestone": true,
+    "children" : [
+      {
+        "desc": "需求分析和原型设计",
+        "children": [
+          {
+            "person": "wudi",
+            "desc": "module desc",
+            "start": "2014-9-10",
+            "end": "2014-9-11",
+            "is_finished": true
+          },
+
+          {
+            "person": "chilliza",
+            "desc": "绘制 mockup",
+            "start": "2014-9-11",
+            "end": "2014-9-15",
+            "is_waiting": true
+          }
+        ]
+      },
+
+      {
+        "desc": "web 模块开发",
+        "children": [
+          {
+            "person": "ben7th",
+            "desc": "web UI 编写",
+            "start": "2014-9-16",
+            "end": "2014-9-26"
+          },
+          {
+            "person": "kaid",
+            "desc": "API 支持",
+            "start": "2014-9-16",
+            "end": "2014-9-26"
+          }
+        ]
+      }
+
+    ]
   },
 
   {
-    "person": "wudi",
-    "desc": "module desc",
-    "start": "2014-9-10",
-    "end": "2014-9-11"
+    "desc": "课程编辑模块",
+    "is_milestone": true,
+    "children" : [
+      {
+        "desc": "教程页面编辑器部分",
+        "children": [
+          {
+            "desc": "测试数据准备",
+            "children": [
+              {
+                "person": "wudi",
+                "desc": "测试数据准备",
+                "start": "2014-9-12",
+                "end": "2014-9-15",
+                "is_finished": true
+              },
+              {
+                "person": "lifei",
+                "desc": "测试数据装入",
+                "start": "2014-9-15",
+                "end": "2014-9-15",
+                "is_finished": true
+              }
+            ]
+          },
+
+          {
+            "person": "ben7th",
+            "desc": "教程编辑器 UI",
+            "start": "2014-9-18",
+            "end": "2014-9-26"
+          },
+          {
+            "person": "kaid",
+            "desc": "API 支持",
+            "start": "2014-9-18",
+            "end": "2014-9-26"
+          }
+        ]
+      },
+
+      {
+        "desc": "主题结构管理部分",
+        "children": [
+          {
+            "person": "kaid",
+            "desc": "按照 mockup 进行 web 页面编写",
+            "start": "2014-9-10",
+            "end": "2014-9-11",
+                "is_finished": true
+          },
+
+          {
+            "person": "kaid",
+            "desc": "pinyin search",
+            "start": "2014-9-11",
+            "end": "2014-9-12",
+                "is_finished": true
+          },
+
+          {
+            "person": "ben7th",
+            "desc": "web 页面体验重构",
+            "start": "2014-9-16",
+            "end": "2014-9-17",
+            "is_waiting": true
+          },
+
+          {
+            "person": "kaid",
+            "desc": "API 支持",
+            "start": "2014-9-16",
+            "end": "2014-9-17"
+          }
+        ]
+      }
+    ]
   },
 
   {
-    "person": "chilliza",
-    "desc": "绘制 mockup",
-    "start": "2014-9-11",
-    "end": "2014-9-15"
-  },
+    "desc": "android 阅读客户端",
+    "is_milestone": true,
+    "children": [
+      {
+        "desc": "主体阅读部分",
+        "children": [
+          {
+            "person": "lifei",
+            "desc": "除去标注之外的其余部分",
+            "start": "2014-9-10",
+            "end": "2014-9-15",
+                "is_finished": true
+          },
+          {
+            "person": "ben7th",
+            "desc": "阅读界面美术定稿",
+            "start": "2014-9-10",
+            "end": "2014-9-15",
+                "is_finished": true
+          }
+        ]
+      },
 
-  {
-    "person": "kaid",
-    "desc": "web page coding",
-    "start": "2014-9-10",
-    "end": "2014-9-11"
-  },
+      {
+        "desc": "标注特性",
+        "children": [
+          {
+            "person": "kaid",
+            "desc": "标注逻辑 API",
+            "start": "2014-9-18",
+            "end": "2014-9-22"
+          },
 
-  {
-    "person": "kaid",
-    "desc": "pinyin search",
-    "start": "2014-9-11",
-    "end": "2014-9-15"
-  },
+          {
+            "person": "ben7th",
+            "desc": "标注逻辑美术定稿",
+            "start": "2014-9-15",
+            "end": "2014-9-19"
+          },
 
-  {
-    "person": "ben7th",
-    "desc": "web ui",
-    "start": "2014-9-15",
-    "end": "2014-9-22"
-  },
+          {
+            "person": "lifei",
+            "desc": "标注逻辑相关编码",
+            "start": "2014-9-22",
+            "end": "2014-9-26"
+          }
 
-  {
-    "person": "lifei",
-    "desc": "android client without marks",
-    "start": "2014-9-1",
-    "end": "2014-9-15"
-  },
-
-  {
-    "person": "kaid",
-    "desc": "marks logic",
-    "start": "2014-9-16",
-    "end": "2014-9-22"
-  },
-
-  {
-    "person": "ben7th",
-    "desc": "marks art design",
-    "start": "2014-9-16",
-    "end": "2014-9-22"
+        ]
+      }
+    ]
   }
 ]
