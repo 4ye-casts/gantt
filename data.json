@@ -31,7 +31,8 @@
             "person": "ben7th wudi chilliza",
             "desc": "mockup 评审",
             "start": "2014-9-17",
-            "end": "2014-9-17"
+            "end": "2014-9-17",
+            "is_finished": true
           },
           {
             "person": "ben7th",

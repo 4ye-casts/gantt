@@ -9,8 +9,16 @@ class TaskBundle
 
     @person = @data.person
     @desc = @data.desc
-    @start_day = new Date(@data.start)
-    @end_day = new Date(@data.end)
+
+    if @data.start
+      [y, m, d] = @data.start.split "-"
+      m = m - 1
+      @start_day = new Date y, m, d
+
+    if @data.end
+      [y, m, d] = @data.end.split "-"
+      m = m - 1
+      @end_day = new Date y, m, d
 
     @is_milestone = @data.is_milestone
     @is_finished = @data.is_finished
@@ -127,7 +135,7 @@ class GanttUI
     month = today.getMonth() + 1
     year = today.getFullYear()
 
-    first_day = new Date "#{year}-#{month}-1"
+    first_day = new Date year, month, 1
     for i in [0...60]
       day = new Date first_day.getTime()
       day.setDate day.getDate() + i
