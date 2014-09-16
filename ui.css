@@ -23,7 +23,8 @@ body {
       position: relative; }
       body .gantt .main-area .days {
         height: 100%;
-        position: relative; }
+        position: relative;
+        margin-left: -400px; }
         body .gantt .main-area .days .day {
           float: left;
           height: 100%;
@@ -53,6 +54,7 @@ body {
           body .gantt .main-area .days .day.today .month, body .gantt .main-area .days .day.today .date {
             color: #44b2f5; }
       body .gantt .main-area .tasks-scroller {
+        margin-left: -400px;
         position: absolute;
         top: 67px;
         left: 0;

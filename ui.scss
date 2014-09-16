@@ -21,6 +21,7 @@ body {
       .days {
         height:100%;
         position:relative;
+        margin-left: -400px;
 
         .day {
           float:left;
@@ -78,6 +79,7 @@ body {
       }
 
       .tasks-scroller {
+        margin-left: -400px;
         position:absolute;
         top:67px;left:0;right:0;bottom:0;
         overflow-y:scroll;
