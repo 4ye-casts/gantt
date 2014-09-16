@@ -182,6 +182,20 @@ body {
                 padding:0 5px;
               }
             }
+
+            &.active {
+              background-color: #FFCC3F;
+              &:after {
+                content:"active";
+                position:absolute;
+                top:5px;right:5px;
+                color:rgba(black, 0.9);
+                font-size:12px;
+                line-height:20px;height:20px;
+                padding:0 5px;
+                font-weight: bold;
+              }
+            }
           }
         }
       }

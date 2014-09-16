@@ -18,8 +18,8 @@
             "person": "chilliza",
             "desc": "绘制 mockup",
             "start": "2014-9-11",
-            "end": "2014-9-15",
-            "is_waiting": true
+            "end": "2014-9-16",
+            "is_finished": true
           }
         ]
       },
@@ -28,15 +28,21 @@
         "desc": "web 模块开发",
         "children": [
           {
+            "person": "ben7th wudi chilliza",
+            "desc": "mockup 评审",
+            "start": "2014-9-17",
+            "end": "2014-9-17"
+          },
+          {
             "person": "ben7th",
             "desc": "web UI 编写",
-            "start": "2014-9-16",
+            "start": "2014-9-17",
             "end": "2014-9-26"
           },
           {
             "person": "kaid",
             "desc": "API 支持",
-            "start": "2014-9-16",
+            "start": "2014-9-17",
             "end": "2014-9-26"
           }
         ]
@@ -111,14 +117,15 @@
             "desc": "web 页面体验重构",
             "start": "2014-9-16",
             "end": "2014-9-17",
-            "is_waiting": true
+            "is_active": true
           },
 
           {
             "person": "kaid",
             "desc": "API 支持",
             "start": "2014-9-16",
-            "end": "2014-9-17"
+            "end": "2014-9-17",
+            "is_active": true
           }
         ]
       }
@@ -162,7 +169,7 @@
           {
             "person": "ben7th",
             "desc": "标注逻辑美术定稿",
-            "start": "2014-9-15",
+            "start": "2014-9-18",
             "end": "2014-9-19"
           },
 

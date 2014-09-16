@@ -15,6 +15,7 @@ class TaskBundle
     @is_milestone = @data.is_milestone
     @is_finished = @data.is_finished
     @is_waiting = @data.is_waiting
+    @is_active = @data.is_active
 
     @children = []
     if @data.children
@@ -81,6 +82,10 @@ class TaskBundle
     if @is_waiting
       $elm
         .addClass 'waiting'
+
+    if @is_active
+      $elm
+        .addClass 'active'
 
   _get_width_and_left: (start_day, end_day)->
     width = (end_day.getDate() - start_day.getDate() + 1) * 50
